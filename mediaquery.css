@@ -1,0 +1,92 @@
+
+/* Tablet screen 768px */
+@media only screen and (min-width:768px){
+    body{
+        background-color: black;
+    }
+    nav ul{
+        display: block;
+    }
+    .icon{
+        display: none;
+    }
+
+    .banner{
+        clear: both;
+        height: 750px;
+    }
+    .overlay{
+        margin-bottom: 50px;
+    }
+    .course{
+        display: inline-block;
+        width: 90%;
+
+    }
+
+    .course-card{
+        width: 300px;
+        height: 250px;
+        display: inline-block;
+        overflow: hidden;
+        
+    }
+
+    .teacher-card{
+        display: inline-block;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* Laptop screen 992 */
+@media only screen and (min-width: 992px){
+    body{
+        background-color: black;
+        text-align: center;
+    }
+    .banner{
+        clear: both;
+        height: 1500px;
+    }
+
+    .course{
+        display: inline-block;
+
+    }
+
+    .course-card{
+        width: 300px;
+        height: 250px;
+        display: inline-block;
+        
+    }
+
+    .teacher-card{
+        display: inline-block;
+
+    }
+
+    .enroll{
+        float: left;
+        width: 50%;
+    }
+    .iframe{
+        float: right;
+        width: 40%;
+        padding: 10px;
+    }
+    footer{
+        clear: both;
+    }
+
+    
+}
+
+
